@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <a mat-button routerLink="/" class="logo">Scriptwiz</a>
+  <span class="spacer"></span>
+
+  <a mat-button routerLink="/films">Films</a>
+  <button mat-icon-button (click)="openSearch()">
+    <mat-icon>search</mat-icon>
+  </button>
+
+  <button (click)="toggleDarkMode()" class="moon-button">🌙</button>
+</mat-toolbar>

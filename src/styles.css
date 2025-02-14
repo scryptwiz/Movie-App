@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+body { margin: 0;
+font-family: "Poppins",sans-serif;
+background-color: #f5f5f5; }
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dark-theme {
+    --primary-color: #3a2d69; 
+    --accent-color: #ff5252; 
+    --background-color: #121212;
+    --text-color: #ffffff; 
+    --card-bg: #1e1e1e;
+  }
+  
+  .dark-theme body {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  .dark-theme .mat-mdc-button,
+  .dark-theme .mat-mdc-raised-button,
+  .dark-theme .mat-mdc-fab {
+    color: white !important;
+  }
+  
+  .dark-theme .mat-mdc-card {
+    background-color: var(--card-bg) !important;
+    color: var(--text-color) !important;
+  }
+  
+  .dark-theme .mat-mdc-checkbox.mat-mdc-checkbox-checked .mdc-checkbox__background {
+    background-color: var(--primary-color) !important;
+  }
+  
+  .dark-theme .mat-mdc-progress-bar .mdc-linear-progress__bar-inner {
+    background-color: var(--primary-color) !important;
+  }
+  
